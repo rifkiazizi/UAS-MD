@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adhe18090088.toko">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Toko">
+        <activity android:name="com.rifki18090020.toko.LoginActivity"></activity>
+        <activity android:name="com.rifki18090020.toko.UpdateActivity" />
+        <activity android:name="com.rifki18090020.toko.DetailActivity" />
+        <activity android:name="com.rifki18090020.toko.CreateBarangActivity" />
+        <activity android:name="com.rifki18090020.toko.BarangActivity" />
+        <activity android:name="com.rifki18090020.toko.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rifki18090020.toko.MainActivity" />
+    </application>
+
+</manifest>
